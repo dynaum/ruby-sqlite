@@ -18,7 +18,7 @@ RUN \
   libxml2-dev \
   libxslt1-dev \
   libyaml-dev \
-  zlib1g-dev \
+  zlib1g-dev
 
 # Ruby install
 RUN \
