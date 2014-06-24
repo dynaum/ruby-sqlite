@@ -33,4 +33,7 @@ RUN \
 # SqLite
 RUN apt-get -y install sqlite3 libsqlite3-dev
 
+# Set locale
+RUN locale-gen en_US.utf8
+
 CMD "bash"
