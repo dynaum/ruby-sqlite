@@ -11,6 +11,7 @@ RUN \
   apt-get -y install \
   build-essential \
   curl \
+  git-core \
   libcurl4-openssl-dev \
   libc6-dev \
   libreadline-dev \
