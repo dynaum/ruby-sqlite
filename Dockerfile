@@ -21,6 +21,7 @@ RUN \
   libyaml-dev \
   zlib1g-dev \
   libssl-dev
+  imagemagick
 
 # Ruby install
 RUN \
