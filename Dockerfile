@@ -20,7 +20,7 @@ RUN \
   libxslt1-dev \
   libyaml-dev \
   zlib1g-dev \
-  libssl-dev
+  libssl-dev \
   imagemagick
 
 # Ruby install
