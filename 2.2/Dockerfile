@@ -25,11 +25,11 @@ RUN \
 
 # Ruby install
 RUN \
-  curl --progress http://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.0.tar.gz | tar xz && \
-  cd ruby-2.3.0 && \
+  curl --progress http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.3.tar.gz | tar xz && \
+  cd ruby-2.2.3 && \
   ./configure --disable-install-doc && \
   make && make install && \
-  cd .. && rm -rf ruby-2.3.0* && \
+  cd .. && rm -rf ruby-2.2.3* && \
   echo 'gem: --no-document' > /usr/local/etc/gemrc && \
   gem install bundler
 
